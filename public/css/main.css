@@ -6,6 +6,27 @@
 /* =================================== */
 /*  Basic Style 
 /* =================================== */
+.active-exibition-carusel .item {
+  min-width: 300px;
+  /* Ukuran minimum elemen */
+  max-width: 100%;
+  /* Pastikan item tidak melebihi lebar */
+  margin: 0 10px;
+  /* Jarak antar elemen */
+}
+
+.active-exibition-carusel img {
+  width: 100%;
+  /* Gambar memenuhi elemen item */
+  height: auto;
+  /* Proporsional */
+  object-fit: cover;
+}
+
+.owl-carousel .owl-stage-outer {
+  padding: 15px 0;
+  /* Memberi padding agar elemen lebih rapi */
+}
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #88d200;
