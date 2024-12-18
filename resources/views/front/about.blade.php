@@ -24,14 +24,14 @@
           <div class="row">
               <div class="col-lg-6 quote-left">
                   <h1>
-                      <span>Music</span> gives soul to the universe, <br>
+                      <span>Museum</span> gives soul to the universe, <br>
                       wings to the <span>mind</span>, flight <br>
                       to the <span>imagination</span>.
                   </h1>
               </div>
               <div class="col-lg-6 quote-right">
                   <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  A museum is an institution that collects, preserves, researches, and exhibits historical, artistic, and scientific objects for the purposes of education, study, and enjoyment. Museums also serve as public spaces to bring together and introduce cultures from various community groups.
                   </p>
               </div>
           </div>
@@ -41,69 +41,7 @@
 
 
   <!-- Start service Area -->
-  <section class="service-area section-gap" id="about">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-4">
-                  <div class="single-service">
-                    <span class="lnr lnr-clock"></span>
-                    <h4>Openning Hours</h4>
-                    <p>
-                        Mon - Fri: 10.00am to 05.00pm
-                      Sat: 12.00pm to 03.00 pm
-                      Sunday Closed
-                    </p>						 	
-                    <div class="overlay">
-                      <div class="text">
-                          <p>
-                              Here, I focus on a range of items and features that we use in life Here, I focus on a range of items and features that we use in life Here, I focus on a range of items and features.that we use in life
-                          </p>
-                          <a href="#" class="text-uppercase primary-btn">Buy ticket</a>
-                      </div>
-                    </div>
-                  </div>							
-              </div>
-              <div class="col-lg-4">
-                  <div class="single-service">
-                    <span class="lnr lnr-rocket"></span>
-                    <h4>Ongoing Exhibitions</h4>
-                    <p>
-                        Mon - Fri: 10.00am to 05.00pm
-                      Sat: 12.00pm to 03.00 pm
-                      Sunday Closed
-                    </p>						 	
-                    <div class="overlay">
-                      <div class="text">
-                          <p>
-                              Here, I focus on a range of items and features that we use in life Here, I focus on a range of items and features that we use in life Here, I focus on a range of items and features.that we use in life
-                          </p>
-                          <a href="#" class="text-uppercase primary-btn">Buy ticket</a>
-                      </div>
-                    </div>
-                  </div>							
-              </div>
-              <div class="col-lg-4">
-                  <div class="single-service">
-                    <span class="lnr lnr-briefcase"></span>
-                    <h4>Openning Events</h4>
-                    <p>
-                        Mon - Fri: 10.00am to 05.00pm
-                      Sat: 12.00pm to 03.00 pm
-                      Sunday Closed
-                    </p>						 	
-                    <div class="overlay">
-                      <div class="text">
-                          <p>
-                              Here, I focus on a range of items and features that we use in life Here, I focus on a range of items and features that we use in life Here, I focus on a range of items and features.that we use in life
-                          </p>
-                          <a href="#" class="text-uppercase primary-btn">Buy ticket</a>
-                      </div>
-                    </div>
-                  </div>							
-              </div>												
-          </div>
-      </div>	
-  </section>
+  
   <!-- End service Area -->
 
   <!-- Start about info Area -->
@@ -120,24 +58,24 @@
           <div class="single-info row mt-40">
               <div class="col-lg-6 col-md-12 mt-120 text-center no-padding info-left">
                   <div class="info-thumb">
-                      <img src="img/pages/about-img.jpg" class="img-fluid" alt="">
+                      <img src="img/pages/museum.3.jpg" class="img-fluid" alt="">
                   </div>
               </div>
               <div class="col-lg-6 col-md-12 no-padding info-rigth">
                   <div class="info-content">
-                      <h2 class="pb-30">We Realize that <br>
-                      there are reduced <br>
-                      Wastege Stand out</h2>
+                      <h2 class="pb-30">Philosophy<br>
+                      of <br>
+                      a Museum</h2>
                       <p>
-                          inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards – especially in the workplace. That’s why it’s crucial that, as women.									
+                        The museum has a philosophy as a place to collect, care for, and exhibit historical objects, art, and natural sciences. The museum also functions as a place to learn, develop knowledge, and form an ideology.								
                       </p>
                       <br>
                       <p>
-                          inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards – especially in the workplace. That’s why it’s crucial that, as women. inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards – especially in the workplace. That’s why it’s crucial that, as women.									
+                        The word museum comes from the Greek mouseion which means a temple dedicated to the Muses, the nine goddesses of art in Greek mythology. The museum can also refer to an educational institution in the late classical Alexandrian period.							
                       </p>
                       <br>
                       <p>
-                          inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards – especially in the workplace. That’s why it’s crucial that, as women.
+                        Some of the benefits of the museum include: Bringing people closer to regional history, Helping people know and learn about history, Helping people form ideologies and discipline, Helping people develop knowledge.
                       </p>
                       </div>
               </div>

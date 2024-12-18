@@ -2547,13 +2547,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-.upcoming-event-area .event-left .single-events {
-  margin-bottom: 50px;
-}
 
-.upcoming-event-area .event-left .single-events h4 {
-  margin-top: 40px;
-}
 
 .upcoming-event-area .event-left .single-events h6 {
   font-weight: 300;
@@ -2570,9 +2564,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 50px;
 }
 
-.upcoming-event-area .event-right .single-events img {
-  margin-top: 40px;
-}
 
 .upcoming-event-area .event-right .single-events h6 {
   font-weight: 300;
@@ -3477,7 +3468,57 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   background: #f9f9ff;
 }
+/* Kontainer utama */
+.row {
+  display: flex;
+  justify-content: space-between; /* Membuat seimbang kanan dan kiri */
+  flex-wrap: wrap; /* Responsif di layar kecil */
+}
 
+/* Kolom kiri dan kanan */
+.event-left, .event-right {
+  flex: 0 0 48%; /* Lebar kolom 48% untuk menyisakan jarak tengah */
+  box-sizing: border-box; /* Menyertakan padding dan border dalam lebar */
+  margin-bottom: 20px;
+}
+
+/* Gambar dalam format potret */
+.programmer-img {
+  width: 100%; /* Gambar mengisi seluruh kolom */
+  height: 600px; /* Tinggi tetap untuk format potret */
+  object-fit: cover; /* Proporsi gambar tetap */
+  border-radius: 8px; /* Memberikan sudut yang lebih lembut */
+}
+
+/* Kontainer teks */
+.programmer-info {
+  text-align: center; /* Teks di bawah gambar berada di tengah */
+  margin-top: 10px;
+}
+
+/* Untuk bagian kiri */
+.upcoming-event-area .event-left .single-events h4 {
+  font-size: 24px; /* Menambah ukuran font judul h4 */
+}
+
+.upcoming-event-area .event-left .single-events h6 {
+  font-size: 18px; /* Menambah ukuran font teks h6 */
+}
+
+/* Untuk bagian kanan */
+.upcoming-event-area .event-right .single-events h4 {
+  font-size: 24px; /* Menambah ukuran font judul h4 */
+}
+
+.upcoming-event-area .event-right .single-events h6 {
+  font-size: 18px; /* Menambah ukuran font teks h6 */
+}
+.upcoming-event-area .event-left .single-events p {
+  font-size: 18px; /* Menambah ukuran font judul h4 */
+}
+.upcoming-event-area .event-right .single-events p {
+  font-size: 18px; /* Menambah ukuran font judul h4 */
+}
 /*
 ################
                End Blog Details  Page style

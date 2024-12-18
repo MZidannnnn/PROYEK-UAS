@@ -16,7 +16,7 @@
     <meta charset="UTF-8">
     <!-- Site Title -->
     <title>Museum Belobog</title>
-
+    <link rel="icon" href="img/icon-museum.png" type="image/png">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     {{-- <link rel="stylesheet" href="https://cdn.lineicons.com/1.0/lineicons.css"> --}}

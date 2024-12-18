@@ -27,7 +27,11 @@ class FrontController extends Controller
     }
     public function gallery()
     {
-        return view('front.gallery'); // Mengarahkan ke file about.blade.php di dalam folder views/front
+        // Mengambil koleksi dengan hanya field gambar
+        $collections = Collection::select('image')->whereNotNull('image')->get();
+
+        // Mengirimkan data gambar koleksi ke view
+        return view('front.gallery', compact('collections'));
     }
     
 }

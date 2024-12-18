@@ -86,40 +86,31 @@
         <div class="row d-flex justify-content-center">
             <div class="menu-content pb-60 col-lg-10">
                 <div class="title text-center">
-                    <h1 class="mb-10">Meet Our Talented Programmers</h1>
-                    <p>Passionate individuals contributing to the world of technology and innovation.</p>
+                    <h1 class="mb-10">Temui Programmer Berbakat Kami</h1>
+                    <p>Individu penuh semangat yang berkontribusi dalam dunia teknologi dan inovasi.</p>
                 </div>
             </div>
         </div>
         <div class="row">
-            @foreach($programmers as $programmer)
-                <div class="col-lg-6 {{ $loop->iteration % 2 == 0 ? 'event-right' : 'event-left' }}">
-                    <div class="single-events">
-                        <!-- Gambar Programmer -->
-                        @if($loop->iteration % 2 != 0)
-                            <img class="img-fluid" src="{{ Storage::url($collection->image) }}" alt="{{ $programmer->name }}">
-                        @endif
-
-                        <!-- Informasi Programmer -->
-                        <a href="#">
-                            <h4>{{ $programmer->name }}</h4>
-                        </a>
-                        <h6><span>{{ $programmer->role }}</span> - NIM: {{ $programmer->nim }}</h6>
-                        <p>
-                            Email: <a href="mailto:{{ $programmer->email }}">{{ $programmer->email }}</a>
-                        </p>
-                        <a href="#" class="primary-btn text-uppercase">View Profile</a>
-
-                        <!-- Gambar Programmer (untuk event-right) -->
-                        @if($loop->iteration % 2 == 0)
-                            <img class="img-fluid" src="{{ Storage::url($collection->image) }}" alt="{{ $programmer->name }}">
-                        @endif
-                    </div>
+    @foreach($programmers as $programmer)
+        <div class="{{ $loop->iteration % 2 == 0 ? 'event-right' : 'event-left' }}">
+            <div class="single-events">
+                <img class="programmer-img" src="{{ Storage::url($programmer->image) }}" alt="{{ $programmer->name }}">
+                <div class="programmer-info">
+                    <h4>{{ $programmer->name }}</h4>
+                    <h6><span>{{ $programmer->role }}</span> - NIM: {{ $programmer->nim }}</h6>
+                    <p>Email: <a href="mailto:{{ $programmer->email }}">{{ $programmer->email }}</a></p>
+                   
                 </div>
-            @endforeach
+            </div>
         </div>
+    @endforeach
+</div>
+
+
     </div>
 </section>
+
 
 <!-- End upcoming-event Area -->
 
