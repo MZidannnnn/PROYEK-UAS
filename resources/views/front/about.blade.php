@@ -11,7 +11,7 @@
                   <h1 class="text-white">
                       About Us				
                   </h1>	
-                  <p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="about.html"> About Us</a></p>
+                  <p class="text-white link-nav"><a href="{{ route('index') }}">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="{{ route('about') }}"> About Us</a></p>
               </div>											
           </div>
       </div>
@@ -31,80 +31,16 @@
               </div>
               <div class="col-lg-6 quote-right">
                   <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Museums are not just places of history, they are sanctuaries of knowledge, where every exhibit
+                    tells a story. <br>
+                    Each artifact is a window into the past, providing insight, wonder, and a deeper understanding
+                    of humanity’s journey.
                   </p>
               </div>
           </div>
       </div>	
   </section>
   <!-- End quote Area -->			
-
-
-  <!-- Start service Area -->
-  <section class="service-area section-gap" id="about">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-4">
-                  <div class="single-service">
-                    <span class="lnr lnr-clock"></span>
-                    <h4>Openning Hours</h4>
-                    <p>
-                        Mon - Fri: 10.00am to 05.00pm
-                      Sat: 12.00pm to 03.00 pm
-                      Sunday Closed
-                    </p>						 	
-                    <div class="overlay">
-                      <div class="text">
-                          <p>
-                              Here, I focus on a range of items and features that we use in life Here, I focus on a range of items and features that we use in life Here, I focus on a range of items and features.that we use in life
-                          </p>
-                          <a href="#" class="text-uppercase primary-btn">Buy ticket</a>
-                      </div>
-                    </div>
-                  </div>							
-              </div>
-              <div class="col-lg-4">
-                  <div class="single-service">
-                    <span class="lnr lnr-rocket"></span>
-                    <h4>Ongoing Exhibitions</h4>
-                    <p>
-                        Mon - Fri: 10.00am to 05.00pm
-                      Sat: 12.00pm to 03.00 pm
-                      Sunday Closed
-                    </p>						 	
-                    <div class="overlay">
-                      <div class="text">
-                          <p>
-                              Here, I focus on a range of items and features that we use in life Here, I focus on a range of items and features that we use in life Here, I focus on a range of items and features.that we use in life
-                          </p>
-                          <a href="#" class="text-uppercase primary-btn">Buy ticket</a>
-                      </div>
-                    </div>
-                  </div>							
-              </div>
-              <div class="col-lg-4">
-                  <div class="single-service">
-                    <span class="lnr lnr-briefcase"></span>
-                    <h4>Openning Events</h4>
-                    <p>
-                        Mon - Fri: 10.00am to 05.00pm
-                      Sat: 12.00pm to 03.00 pm
-                      Sunday Closed
-                    </p>						 	
-                    <div class="overlay">
-                      <div class="text">
-                          <p>
-                              Here, I focus on a range of items and features that we use in life Here, I focus on a range of items and features that we use in life Here, I focus on a range of items and features.that we use in life
-                          </p>
-                          <a href="#" class="text-uppercase primary-btn">Buy ticket</a>
-                      </div>
-                    </div>
-                  </div>							
-              </div>												
-          </div>
-      </div>	
-  </section>
-  <!-- End service Area -->
 
   <!-- Start about info Area -->
   <section class="section-gap info-area" id="about">

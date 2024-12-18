@@ -67,9 +67,9 @@
                         <ul class="tags mt-3">
                             <li><a href="#">{{ $collection->category->name }}</a></li>
                         </ul>
-                        <a href="#">
+                        <a href="{{ route('collection.show', $collection->id) }}">
                             <h4 class="mt-2">{{ $collection->name }}</h4>
-                        </a>
+                        </a>                        
                         <p class="text-muted">{{ $collection->description }}</p>
                         <h6 class="date text-secondary">{{ $collection->created_at->format('jS F, Y') }}</h6>
                     </div>
