@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Collection;
-
+use App\Models\Programmer;
 
 class FrontController extends Controller
 {
@@ -16,9 +16,10 @@ class FrontController extends Controller
 
         // Ambil semua data koleksi
         $collections = Collection::with('category')->get(); // Jika ingin memuat relasi dengan kategori
-
+        
+        $programmers = Programmer::all();
         // Kirim data koleksi ke view front.index
-        return view('front.index', compact('collections', 'currentDate'));
+        return view('front.index', compact('collections', 'currentDate', 'programmers'));
     }
     public function about()
     {
@@ -28,4 +29,5 @@ class FrontController extends Controller
     {
         return view('front.gallery'); // Mengarahkan ke file about.blade.php di dalam folder views/front
     }
+    
 }

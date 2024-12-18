@@ -81,48 +81,46 @@
 <!-- End exibition Area -->
 
 <!-- Start upcoming-event Area -->
-<section class="upcoming-event-area section-gap" id="events">
+<section class="upcoming-event-area section-gap" id="programmers">
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="menu-content pb-60 col-lg-10">
                 <div class="title text-center">
-                    <h1 class="mb-10">Browse Through Our Upcoming Museum Collections</h1>
-                    <p>Created with passion by the team dedicated to preserving and showcasing culture.</p>
+                    <h1 class="mb-10">Meet Our Talented Programmers</h1>
+                    <p>Passionate individuals contributing to the world of technology and innovation.</p>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 event-left">
-                <div class="single-events">
-                    <img class="img-fluid" src="{{ asset('img/u1.jpg') }}" alt="">
-                    <a href="#">
-                        <h4>Event on the rock solid carbon</h4>
-                    </a>
-                    <h6><span>21st February</span> at Central government museum</h6>
-                    <p>
-                        inappropriate behavior is often laughed off as “boys will be boys,” women face higher
-                        conduct standards especially.
-                    </p>
-                    <a href="#" class="primary-btn text-uppercase">View Details</a>
+            @foreach($programmers as $programmer)
+                <div class="col-lg-6 {{ $loop->iteration % 2 == 0 ? 'event-right' : 'event-left' }}">
+                    <div class="single-events">
+                        <!-- Gambar Programmer -->
+                        @if($loop->iteration % 2 != 0)
+                            <img class="img-fluid" src="{{ Storage::url($collection->image) }}" alt="{{ $programmer->name }}">
+                        @endif
+
+                        <!-- Informasi Programmer -->
+                        <a href="#">
+                            <h4>{{ $programmer->name }}</h4>
+                        </a>
+                        <h6><span>{{ $programmer->role }}</span> - NIM: {{ $programmer->nim }}</h6>
+                        <p>
+                            Email: <a href="mailto:{{ $programmer->email }}">{{ $programmer->email }}</a>
+                        </p>
+                        <a href="#" class="primary-btn text-uppercase">View Profile</a>
+
+                        <!-- Gambar Programmer (untuk event-right) -->
+                        @if($loop->iteration % 2 == 0)
+                            <img class="img-fluid" src="{{ Storage::url($collection->image) }}" alt="{{ $programmer->name }}">
+                        @endif
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-6 event-right">
-                <div class="single-events">
-                    <a href="#">
-                        <h4>Event on the rock solid carbon</h4>
-                    </a>
-                    <h6><span>21st February</span> at Central government museum</h6>
-                    <p>
-                        inappropriate behavior is often laughed off as “boys will be boys,” women face higher
-                        conduct standards especially.
-                    </p>
-                    <a href="#" class="primary-btn text-uppercase">View Details</a>
-                    <img class="img-fluid" src="{{ asset('img/u2.jpg') }}" alt="">
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
 </section>
+
 <!-- End upcoming-event Area -->
 
 @endsection

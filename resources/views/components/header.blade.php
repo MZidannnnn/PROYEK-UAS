@@ -10,6 +10,7 @@
               <li class="menu-active"><a href="{{ route('index') }}">Home</a></li>
               <li><a href="{{ route('about') }}">About</a></li>
               <li><a href="{{ route('gallery') }}">Gallery</a></li>
+ 
             </ul>
           </nav><!-- #nav-menu-container -->		    		
         </div>
