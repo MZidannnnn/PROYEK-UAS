@@ -86,8 +86,8 @@
         <div class="row d-flex justify-content-center">
             <div class="menu-content pb-60 col-lg-10">
                 <div class="title text-center">
-                    <h1 class="mb-10">Temui Programmer Berbakat Kami</h1>
-                    <p>Individu penuh semangat yang berkontribusi dalam dunia teknologi dan inovasi.</p>
+                    <h1 class="mb-10">Meet Our Talented Programmers</h1>
+                    <p>Passionate individuals who contribute to the world of technology and innovation.</p>
                 </div>
             </div>
         </div>
