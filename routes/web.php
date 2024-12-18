@@ -9,4 +9,6 @@ use App\Http\Controllers\FrontController;
 Route::get('/', [FrontController::class, 'index'])->name('index'); // Menggunakan method index di FrontController
 Route::get('/about', [FrontController::class, 'about'])->name('about');
 Route::get('/gallery', [FrontController::class, 'gallery'])->name('gallery');
+Route::get('/collection/{id}', [FrontController::class, 'show'])->name('collection.show');
+
 

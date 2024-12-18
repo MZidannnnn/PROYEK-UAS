@@ -21,6 +21,15 @@ class FrontController extends Controller
         // Kirim data koleksi ke view front.index
         return view('front.index', compact('collections', 'currentDate', 'programmers'));
     }
+    public function show($id)
+    {
+        // Ambil koleksi berdasarkan ID
+        $collection = Collection::with('category')->findOrFail($id);
+
+        // Kirim data ke view
+        return view('front.collection-detail', compact('collection'));
+    }
+
     public function about()
     {
         return view('front.about'); // Mengarahkan ke file about.blade.php di dalam folder views/front
